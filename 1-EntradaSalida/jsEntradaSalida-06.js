@@ -4,6 +4,15 @@ transformarlos a enteros (parseInt) y Sumarlos.
 mostrar el resulto por medio de "ALERT"*/
 function sumar()
 {
-	alert("ok");
+
+	let varNumeroUno;
+	let varNumeroDos;
+	let varCalculo;
+
+	varNumeroUno = parseInt(txtIdNumeroUno.value);	
+	varNumeroDos = parseInt(txtIdNumeroDos.value);	
+	varCalculo = (varNumeroUno + varNumeroDos);
+
+	alert("La suma es " + varSuma);
 }
 
