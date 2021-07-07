@@ -6,9 +6,9 @@ en el cuadro de texto "RESULTADO".*/
 function mostrarAumento()
 {
 
-	let varSueldo;
-	let varValorPorcentaje;
-	let varCalculo;
+	var varSueldo;
+	var varValorPorcentaje;
+	var varCalculo;
 
 	varSueldo = parseInt(txtIdSueldo.value);	
 	varValorPorcentaje = 10;

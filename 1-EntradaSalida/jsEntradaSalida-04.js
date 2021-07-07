@@ -4,7 +4,7 @@ y lo muestro por 'ID' al presionar el botón 'mostrar'
 */
 function mostrar()
 {
-	let varNombre;
+	var varNombre;
 
 	varNombre = prompt("Ingreso de dato");
 	txtIdNombre.value = varNombre;

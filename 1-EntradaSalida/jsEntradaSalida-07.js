@@ -5,10 +5,10 @@ mostrar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/ 
 function sumar()
 {	
-	let varNumeroUno;
-	let varNumeroDos;
-	let varCalculo;
-	let varMensaje;
+	var varNumeroUno;
+	var varNumeroDos;
+	var varCalculo;
+	var varMensaje;
 
 	varNumeroUno = parseInt(txtIdNumeroUno.value);	
 	varNumeroDos = parseInt(txtIdNumeroDos.value);	
@@ -20,10 +20,10 @@ function sumar()
 
 function restar()
 {
-	let varNumeroUno;
-	let varNumeroDos;
-	let varCalculo;
-	let varMensaje;
+	var varNumeroUno;
+	var varNumeroDos;
+	var varCalculo;
+	var varMensaje;
 
 	varNumeroUno = parseInt(txtIdNumeroUno.value);	
 	varNumeroDos = parseInt(txtIdNumeroDos.value);	
@@ -35,10 +35,10 @@ function restar()
 
 function multiplicar()
 { 
-	let varNumeroUno;
-	let varNumeroDos;
-	let varCalculo;
-	let varMensaje;
+	var varNumeroUno;
+	var varNumeroDos;
+	var varCalculo;
+	var varMensaje;
 
 	varNumeroUno = parseInt(txtIdNumeroUno.value);	
 	varNumeroDos = parseInt(txtIdNumeroDos.value);	
@@ -50,10 +50,10 @@ function multiplicar()
 
 function dividir()
 {
-	let varNumeroUno;
-	let varNumeroDos;
-	let varCalculo;
-	let varMensaje;
+	var varNumeroUno;
+	var varNumeroDos;
+	var varCalculo;
+	var varMensaje;
 
 	varNumeroUno = parseInt(txtIdNumeroUno.value);	
 	varNumeroDos = parseInt(txtIdNumeroDos.value);	

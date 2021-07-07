@@ -5,9 +5,9 @@ mostrar el resulto por medio de "ALERT"*/
 function sumar()
 {
 
-	let varNumeroUno;
-	let varNumeroDos;
-	let varCalculo;
+	var varNumeroUno;
+	var varNumeroDos;
+	var varCalculo;
 
 	varNumeroUno = parseInt(txtIdNumeroUno.value);	
 	varNumeroDos = parseInt(txtIdNumeroDos.value);	
