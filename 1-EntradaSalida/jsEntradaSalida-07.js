@@ -13,8 +13,8 @@ function sumar()
 	numeroUno = parseInt(txtIdNumeroUno.value);	
 	numeroDos = parseInt(txtIdNumeroDos.value);	
 	calculo = (numeroUno + numeroDos);
-	mensaje = "La suma es ";
-	alert(mensaje + calculo);
+	mensaje = "La suma es " + calculo;
+	alert(mensaje);
 
 }
 
@@ -28,8 +28,8 @@ function restar()
 	numeroUno = parseInt(txtIdNumeroUno.value);	
 	numeroDos = parseInt(txtIdNumeroDos.value);	
 	calculo = (numeroUno - numeroDos);
-	mensaje = "La resta es ";
-	alert(mensaje + calculo);
+	mensaje = "La resta es " + calculo;
+	alert(mensaje);
 
 }
 
@@ -43,8 +43,8 @@ function multiplicar()
 	numeroUno = parseInt(txtIdNumeroUno.value);	
 	numeroDos = parseInt(txtIdNumeroDos.value);	
 	calculo = (numeroUno * numeroDos);
-	mensaje = "La multiplicacion es ";
-	alert(mensaje + calculo);
+	mensaje = "La multiplicacion es " + calculo;
+	alert(mensaje);
 
 }
 
@@ -58,8 +58,8 @@ function dividir()
 	numeroUno = parseInt(txtIdNumeroUno.value);	
 	numeroDos = parseInt(txtIdNumeroDos.value);	
 	calculo = (numeroUno / numeroDos);
-	mensaje = "La division es ";
-	alert(mensaje + calculo);
+	mensaje = "La division es " + calculo;
+	alert(mensaje);
 	
 }
 

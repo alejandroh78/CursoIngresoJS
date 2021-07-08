@@ -14,7 +14,7 @@ function SacarResto()
 	numeroDivisor = parseInt(txtIdNumeroDivisor.value);	
 
 	resto = (numeroDividendo % numeroDivisor);
-	mensaje = "El resto es ";
-	alert(mensaje + resto);
+	mensaje = "El resto es " + resto;
+	alert(mensaje);
 	
 }
