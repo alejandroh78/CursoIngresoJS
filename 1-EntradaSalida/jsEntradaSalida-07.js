@@ -5,61 +5,61 @@ mostrar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/ 
 function sumar()
 {	
-	var varNumeroUno;
-	var varNumeroDos;
-	var varCalculo;
-	var varMensaje;
+	var numeroUno;
+	var numeroDos;
+	var calculo;
+	var mensaje;
 
-	varNumeroUno = parseInt(txtIdNumeroUno.value);	
-	varNumeroDos = parseInt(txtIdNumeroDos.value);	
-	varCalculo = (varNumeroUno + varNumeroDos);
-	varMensaje = "La suma es ";
-	alert(varMensaje + varCalculo);
+	numeroUno = parseInt(txtIdNumeroUno.value);	
+	numeroDos = parseInt(txtIdNumeroDos.value);	
+	calculo = (numeroUno + numeroDos);
+	mensaje = "La suma es ";
+	alert(mensaje + calculo);
 
 }
 
 function restar()
 {
-	var varNumeroUno;
-	var varNumeroDos;
-	var varCalculo;
-	var varMensaje;
+	var numeroUno;
+	var numeroDos;
+	var calculo;
+	var mensaje;
 
-	varNumeroUno = parseInt(txtIdNumeroUno.value);	
-	varNumeroDos = parseInt(txtIdNumeroDos.value);	
-	varCalculo = (varNumeroUno - varNumeroDos);
-	varMensaje = "La resta es ";
-	alert(varMensaje + varCalculo);
+	numeroUno = parseInt(txtIdNumeroUno.value);	
+	numeroDos = parseInt(txtIdNumeroDos.value);	
+	calculo = (numeroUno - numeroDos);
+	mensaje = "La resta es ";
+	alert(mensaje + calculo);
 
 }
 
 function multiplicar()
 { 
-	var varNumeroUno;
-	var varNumeroDos;
-	var varCalculo;
-	var varMensaje;
+	var numeroUno;
+	var numeroDos;
+	var calculo;
+	var mensaje;
 
-	varNumeroUno = parseInt(txtIdNumeroUno.value);	
-	varNumeroDos = parseInt(txtIdNumeroDos.value);	
-	varCalculo = (varNumeroUno * varNumeroDos);
-	varMensaje = "La multiplicacion es ";
-	alert(varMensaje + varCalculo);
+	numeroUno = parseInt(txtIdNumeroUno.value);	
+	numeroDos = parseInt(txtIdNumeroDos.value);	
+	calculo = (numeroUno * numeroDos);
+	mensaje = "La multiplicacion es ";
+	alert(mensaje + calculo);
 
 }
 
 function dividir()
 {
-	var varNumeroUno;
-	var varNumeroDos;
-	var varCalculo;
-	var varMensaje;
+	var numeroUno;
+	var numeroDos;
+	var calculo;
+	var mensaje;
 
-	varNumeroUno = parseInt(txtIdNumeroUno.value);	
-	varNumeroDos = parseInt(txtIdNumeroDos.value);	
-	varCalculo = (varNumeroUno / varNumeroDos);
-	varMensaje = "La division es ";
-	alert(varMensaje + varCalculo);
+	numeroUno = parseInt(txtIdNumeroUno.value);	
+	numeroDos = parseInt(txtIdNumeroDos.value);	
+	calculo = (numeroUno / numeroDos);
+	mensaje = "La division es ";
+	alert(mensaje + calculo);
 	
 }
 

@@ -5,14 +5,14 @@ mostrar el resulto por medio de "ALERT"*/
 function sumar()
 {
 
-	var varNumeroUno;
-	var varNumeroDos;
-	var varCalculo;
+	var numeroUno;
+	var numeroDos;
+	var calculo;
 
-	varNumeroUno = parseInt(txtIdNumeroUno.value);	
-	varNumeroDos = parseInt(txtIdNumeroDos.value);	
-	varCalculo = (varNumeroUno + varNumeroDos);
+	numeroUno = parseInt(txtIdNumeroUno.value);	
+	numeroDos = parseInt(txtIdNumeroDos.value);	
+	calculo = (numeroUno + numeroDos);
 
-	alert("La suma es " + varSuma);
+	alert("La suma es " + calculo);
 }
 

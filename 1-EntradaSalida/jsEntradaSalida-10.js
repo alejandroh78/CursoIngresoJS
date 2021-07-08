@@ -5,16 +5,16 @@ mostrar el importe con un Descuento del 25 %
 en el cuadro de texto "RESULTADO"*/
 function mostrarAumento()
 {
-	var varImporte;
-	var varValorPorcentaje;
-	var varCalculoPorcentaje;
-	var varCalculoResultado;
+	var importe;
+	var valorPorcentaje;
+	var calculoPorcentaje;
+	var calculoResultado;
 
-	varImporte = parseInt(txtIdImporte.value);	
-	varValorPorcentaje = 25;
+	importe = parseInt(txtIdImporte.value);	
+	valorPorcentaje = 25;
 
-	varCalculoPorcentaje = (varImporte * varValorPorcentaje) / 100;
-	varCalculoResultado = (varImporte-varCalculoPorcentaje);
-	txtIdResultado.value = varCalculoResultado;
+	calculoPorcentaje = (importe * valorPorcentaje) / 100;
+	calculoResultado = (importe-calculoPorcentaje);
+	txtIdResultado.value = calculoResultado;
 
 }

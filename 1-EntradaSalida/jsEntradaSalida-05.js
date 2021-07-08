@@ -4,12 +4,12 @@ ej.: "Usted se llama José y tiene 66 años" 	*/
 function mostrar()
 {	
 
-	var varNombre;
-	var varEdad;
+	var nombre;
+	var edad;
 
-	varNombre = txtIdNombre.value;	
-	varEdad = txtIdEdad.value;	
+	nombre = txtIdNombre.value;	
+	edad = txtIdEdad.value;	
 
-	alert("Usted se llama " + varNombre + " y tiene " + varEdad + " años");
+	alert("Usted se llama " + nombre + " y tiene " + edad + " años");
 }
 
