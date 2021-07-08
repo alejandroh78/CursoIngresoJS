@@ -13,11 +13,16 @@ function sumar()
 	var calculo;
 	var mensaje;
 
-	numeroUno = parseInt(txtIdNumeroUno.value);	
-	numeroDos = parseInt(txtIdNumeroDos.value);	
+	numeroUno = txtIdNumeroUno.value;	
+	numeroUno = parseInt(numeroUno);	
+
+	numeroDos = txtIdNumeroDos.value;	
+	numeroDos = parseInt(numeroDos);	
 
 	calculo = (numeroUno + numeroDos);
 	mensaje = "La suma es " + calculo;
+	
 	alert(mensaje);
+
 }
 

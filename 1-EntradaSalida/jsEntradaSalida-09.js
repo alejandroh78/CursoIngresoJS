@@ -10,7 +10,8 @@ function mostrarAumento()
 	var valorPorcentaje;
 	var calculo;
 
-	sueldo = parseInt(txtIdSueldo.value);	
+	sueldo = txtIdSueldo.value;	
+	sueldo = parseInt(sueldo);	
 	valorPorcentaje = 10;
 
 	calculo = (sueldo * valorPorcentaje) / 100;

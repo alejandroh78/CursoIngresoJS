@@ -10,7 +10,8 @@ function mostrarAumento()
 	var calculoPorcentaje;
 	var calculoResultado;
 
-	importe = parseInt(txtIdImporte.value);	
+	importe = txtIdImporte.value;	
+	importe = parseInt(importe);	
 	valorPorcentaje = 25;
 
 	calculoPorcentaje = (importe * valorPorcentaje) / 100;

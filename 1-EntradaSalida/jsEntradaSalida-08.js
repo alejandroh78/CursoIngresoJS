@@ -10,8 +10,11 @@ function SacarResto()
 	var resto;
 	var mensaje;
 
-	numeroDividendo = parseInt(txtIdNumeroDividendo.value);	
-	numeroDivisor = parseInt(txtIdNumeroDivisor.value);	
+	numeroDividendo = txtIdNumeroDividendo.value;	
+	numeroDividendo = parseInt(numeroDividendo);	
+
+	numeroDivisor = txtIdNumeroDivisor.value;	
+	numeroDivisor = parseInt(numeroDivisor);	
 
 	resto = (numeroDividendo % numeroDivisor);
 	mensaje = "El resto es " + resto;
