@@ -1,6 +1,24 @@
+//alejandro holik
+//ejericio 9
+
+/*
+Al presionar el Botón, mostrar un número Random del 1 al 10 inclusive
+*/
+
 function mostrar()
 {
-	//Genero el número RANDOM entre 1 y 10 
-	alert("ok");	
+	var valorRandom;
+	var minimo;
+	var maximo;
 
-}//FIN DE LA FUNCIÓN
+	minimo = 1;
+	maximo = 20;
+
+	valorRandom = Math.round(Math.random() * (maximo - minimo) + minimo);
+	
+	if (valorRandom > 0 && valorRandom < 11){
+		alert(valorRandom);	
+	}
+	
+
+}

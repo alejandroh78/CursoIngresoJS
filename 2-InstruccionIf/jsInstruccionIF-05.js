@@ -1,3 +1,10 @@
+/*
+alejandro holik
+
+IF 
+ejercicio 5
+*/
+
 function mostrar()
 {
 
@@ -10,4 +17,4 @@ function mostrar()
 		alert("Ud no es adolescente");
 	}
 
-}//FIN DE LA FUNCIÓN
+}

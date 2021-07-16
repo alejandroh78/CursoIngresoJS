@@ -1,3 +1,10 @@
+/*
+alejandro holik
+
+IF 
+ejercicio 2
+*/
+
 function mostrar()
 {
 
@@ -6,10 +13,9 @@ function mostrar()
 	edad = txtIdEdad.value;
 	edad = parseInt(edad);
 
-	if (edad >= 18){
+	if (edad > 17){
 		alert("Ud es mayor de edad");
 	}
-	
-	
+}
 
-}//FIN DE LA FUNCIÓN
+//FIN DE LA FUNCIÓN

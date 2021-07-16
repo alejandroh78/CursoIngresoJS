@@ -1,3 +1,10 @@
+/*
+alejandro holik
+
+IF 
+ejercicio 3
+*/
+
 function mostrar()
 {
 

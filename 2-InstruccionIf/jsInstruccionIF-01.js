@@ -1,3 +1,9 @@
+/*
+alejandro holik
+
+IF 
+ejercicio 1
+*/
 function mostrar()
 {
 	var edad;
@@ -10,4 +16,4 @@ function mostrar()
 	}
 	
 
-}//FIN DE LA FUNCIÓN
+}

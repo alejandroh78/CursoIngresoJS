@@ -1,10 +1,23 @@
+/*
+si es Febrero: " Este mes no tiene más de 29 días."
+si NO es Febrero: "Este mes tiene 30 o más días"
+*/
+
 function mostrar()
 {
-	//tomo el mes
-	var mesDelAño =txtIdMes.value;
-	alert(mesDelAño);
+	var mes;
+	var mensaje;
 	
-	
+	mes =txtIdMes.value;
 
+	switch (mes) {
 
-}//FIN DE LA FUNCIÓN
+		case "Febrero":	
+			mensaje = "Este mes no tiene más de 29 días";
+			alert(mensaje);
+			break;
+		default:
+			mensaje = "Este mes tiene 30 o más días";
+			alert(mensaje);
+	}
+}
